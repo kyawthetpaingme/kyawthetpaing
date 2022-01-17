@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Kyaw Thet Paing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+      <div class="bubbles">
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      <div class="bubble"></div>
+      
+    </div>
+
+        <section class="home">
+
+            <div class="card">
+                <div class="robot">
+                    <p class="me">
+                        <a href="kyawthetpaingme.jpg">
+                            <img src="kyawthetpaingme.jpg" alt="Thia is Kyaw Thet Paing" width="200px" height="200px">
+                        </a>
+                    </p>
+                </div>
+                
+                <h2>I'M KYAW THET PAING</h2>
+                <p class="pie">I'm fancy to practice Programming Languages</p>
+
+                <div class="quotes">
+                    <p>Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma — which is living with the results of other people's thinking.</p>
+                </div>
+
+                <div class="link">
+                    <a class="btn" href="https://www.facebook.com/kyawthetpaingme">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn" href="https://instagram.com/kyawthetpaingme">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a class="btn" href="https://twitter.com/kyawthetpaingme">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a class="btn" href="https://www.youtube.com/channel/UChw2TuXvlryikDPMYTbbsgA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn" href="https://github.com/kyawthetpaingme">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a class="btn" href="https://www.patreon.com/doesnotexistrobot">
+                        <i class="fab fa-patreon"></i>
+                    </a>
+                    <a class="btn" href="https://www.artstation.com/kyawthetpaing">
+                        <i class="fab fa-artstation"></i>
+                    </a>
+                    <a class="btn" href="https://www.reddit.com/user/kyawthetpaingme">
+                        <i class="fab fa-reddit-alien"></i>
+                    </a>
+                </div>
+            </div>
+
+            <script src="https://kit.fontawesome.com/c12317dce0.js" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="index.js"></script>
+        <script>
+            VanillaTilt.init(document.querySelector(".card"),{
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+        </script>
+
+        </section>
+
+        <section class="music">
+            <div class="wrapper">
+                <div class="top-bar">
+                  <span>MUSIC</span>
+                </div>
+                <div class="img-area">
+                  <img src="" alt="">
+                </div>
+                <div class="song-details">
+                  <p class="name"></p>
+                  <p class="artist"></p>
+                </div>
+                <div class="progress-area">
+                  <div class="progress-bar">
+                    <audio id="main-audio" src=""></audio>
+                  </div>
+                  <div class="song-timer">
+                    <span class="current-time">0:00</span>
+                    <span class="max-duration">0:00</span>
+                  </div>
+                </div>
+                <div class="controls">
+                  <i id="repeat-plist" class="material-icons" title="Playlist looped">repeat</i>
+                  <i id="prev" class="material-icons">skip_previous</i>
+                  <div class="play-pause">
+                    <i class="material-icons play">play_arrow</i>
+                  </div>
+                  <i id="next" class="material-icons">skip_next</i>
+                  <i id="more-music" class="material-icons">queue_music</i>
+                </div>
+                <div class="music-list">
+                  <div class="header">
+                    <div class="row">
+                      <i class= "list material-icons">queue_music</i>
+                      <span>Music list</span>
+                    </div>
+                    <i id="close" class="material-icons">close</i>
+                  </div>
+                  <ul>
+                  </ul>
+                </div>
+              </div>
+
+              <script src="js/music-list.js"></script>
+              <script src="js/script.js"></script>
+        </section>
+
+        <section class="sticky">
+
+        </section>
+
+    </body>
+</html>
